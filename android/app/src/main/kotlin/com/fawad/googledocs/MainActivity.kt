@@ -1,4 +1,4 @@
-package com.example.google_docs_clone
+package com.fawad.googledocs
 
 import io.flutter.embedding.android.FlutterActivity
 

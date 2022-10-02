@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.google_docs_clone">
+    package="com.fawad.googledocs">
    <application
         android:label="google_docs_clone"
         android:name="${applicationName}"
