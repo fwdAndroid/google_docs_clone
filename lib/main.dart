@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_docs_clone/auth/login_screen.dart';
 
+
+//PRovider Scope is used to Run RiverPOd
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child:  MyApp()));
 }
 
 class MyApp extends StatelessWidget {
