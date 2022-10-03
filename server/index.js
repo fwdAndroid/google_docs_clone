@@ -1,9 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const authRouter = require("./routes/auth");
 
 const PORT = process.env.PORT | 3001;
 
 const  app = express();
+
+app.use(express.json());
+app.use(authRouter);
 
 const DB =
   "mongodb+srv://fwdkaleem:Zeo123456@cluster0.pimqn8j.mongodb.net/?retryWrites=true&w=majority";
@@ -21,3 +25,5 @@ const DB =
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`connected at port ${PORT}`);
   });
+
+  // Middle Ware is use to transfer data from server to client or client to server 
