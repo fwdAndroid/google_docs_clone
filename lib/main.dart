@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_docs_clone/auth/login_screen.dart';
+import 'package:google_docs_clone/screens/login_screen.dart';
 
 
 //PRovider Scope is used to Run RiverPOd
